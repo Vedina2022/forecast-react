@@ -1,11 +1,14 @@
 import "./App.css";
+import CurrentWeather from "./CurrentWeather";
+import Footer from "./Footer";
 
 function App() {
   return (
     <div className="App">
-      <center>
-        <h1> Forecast App</h1>
-      </center>
+      <div className="container">
+        <CurrentWeather />
+        <Footer />
+      </div>
     </div>
   );
 }
