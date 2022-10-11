@@ -1,12 +1,12 @@
 import "./App.css";
-import CurrentWeather from "./CurrentWeather";
+import Weather from "./Weather";
 import Footer from "./Footer";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <CurrentWeather />
+        <Weather />
         <Footer />
       </div>
     </div>

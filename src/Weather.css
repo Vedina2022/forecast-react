@@ -1,0 +1,80 @@
+.Weather .weather-wraper {
+  background: rgb(61, 83, 109, 0.4);
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.Weather form {
+  display: flex;
+  color: rgb(225, 227, 240);
+  padding: 3px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 4px rgb(0 0 0 / 25%);
+  height: 40px;
+  width: 300px;
+  font-size: 16px;
+  background: #6aa4ce;
+  margin: 20px;
+}
+
+.Weather input {
+  border: 1px solid transparent;
+  border-radius: inherit;
+  background: transparent;
+  margin: 0;
+  color: inherit;
+  padding: 10px 30px 10px 20px;
+  outline: none;
+}
+
+.Weather .search-input::placeholder {
+  color: rgb(225, 227, 240);
+}
+
+.Weather button {
+  overflow: hidden;
+  width: 80px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  background: transparent;
+  cursor: pointer;
+}
+
+.Weather .search-icon {
+  color: rgb(225, 227, 240);
+  font-size: 20px;
+}
+
+.Weather .search-icon:hover {
+  font-size: 24px;
+}
+
+.Weather .city {
+  font-size: 36px;
+}
+
+.Weather .current-time,
+.description {
+  font-size: 18px;
+}
+
+.Weather .degree {
+  font-size: 70px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.Weather .unit {
+  font-size: 26px;
+  font-weight: bold;
+  position: relative;
+  top: -30px;
+}
+
+.Weather ul {
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+}

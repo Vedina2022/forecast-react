@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="mt-4">
       This project was coded by
       <a
         href="https://www.linkedin.com/in/nadiia-kyshinska-8aa342168/"
