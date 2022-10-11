@@ -1,7 +1,6 @@
 import React from "react";
 import "./Weather.css";
 import { FaSistrix } from "react-icons/fa";
-import { FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Weather() {
   return (
